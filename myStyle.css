@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+h2 span{
+    padding: 5px ;
+    background: #ffbc7e;
+    color: #ff912b;
+}
+button{
+    margin-top: 20px;
+    color: #fff;
+    background: #ff912b;
+    padding: 5px 10px;
+    border: 1px solid #ff912b;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: #665e5e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+nav label{
+    margin-left: 50px;
+}
+nav label span{
+    color: goldenrod;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 5px;
+}
+
+nav .nav-icon{
+    margin-right: 50px;
+    
+}
+nav .nav-icon i{
+    padding: 0 5px;
+}
+nav .nav-icon i:nth-child(1){
+    color: goldenrod;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contect-banner{
+    position: absolute;
+    z-index: 1;
+    text-align: center ;
+    color: #fff;
+}
+.contect-banner p{
+    text-align: center;
+}
+.banner-video  video{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+.card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-item{
+    width: 300px;
+    height: 450px;
+    box-shadow: 1px 1px 10px #e0dbdb;
+}
+
+.card-item img{
+    width: 100%;
+    height: 200px;
+}
+
+.icons{
+    padding-top: 10px;
+    color: #ff912b;
+}
+.card-item h4,h6{
+    padding-top: 10px;
+}
+.services{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-item{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    transition: all ease .5s;
+}
+.service-item:hover {
+    box-shadow: 1px 1px 5px #e0dbdb;
+}
+.service-item .service-icon{
+    padding: 10px 0;
+    font-size: 35px;
+    color: #ff912b;
+}
+.service-item p {
+    text-align: center;
+    color: #665e5e;
+}
+
+.card-review{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.review-item{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+.review-item:hover{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .7);
+}
+.review-item img{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    border: 3px dotted #ff912b;
+    border-radius: 50%;
+}
+.review-item p{
+    text-align: center;
+}
+.booking-section{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.booking-item{
+    width: 500px;
+    height: 400px;
+  
+}
+.booking-item:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+.booking-item iframe{
+    width: 100%;
+    height: 100%;
+}
+.booking-item form{
+    padding: 30px;
+}
+.booking-item form input[type="text"], input[type="email"], input[type="number"]{
+    margin: 10px 0;
+    width: 80%;
+    padding: 5px 10px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+
+.boxx{
+    background-color:  #0a0e27;
+    padding: 50px;
+    text-align: center;
+}
+
+.boxxes{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.boxxes h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.contact-form{
+    text-align: left;
+}
+
+ .contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+
+} 
+
+.group-form{
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color:  #112240;
+    color: #333;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+.contact-info{
+    text-align: left;
+}
+
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.contact-info p{
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-info i{
+    color: #4caf50;
+    margin-right: 10px;
+} 
